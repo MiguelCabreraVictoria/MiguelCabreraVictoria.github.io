@@ -6,3 +6,119 @@
 .border_left{
     border-left: 1px solid #000;
 }
+
+.border_right{
+    border-right: 1px solid #000;
+}
+
+.border_t{
+    border-top: 1px solid #000000;
+}
+
+.border_b{
+    border-bottom: 1px solid #000000;
+}
+
+.border_radius{
+    border: 1px solid;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.image_background{
+    background-image: url("../IMG/css_cheatsheet.png");
+    height: 500px;
+    background-position: center
+}
+
+.image_background h3{
+    text-align: center;
+    color: #fff;
+    padding: 200px;
+    font-size: 100px;
+}
+
+.color{
+    color: green;
+    font-weight: bold;
+}
+
+.font-family{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font-f{
+    font-weight: bold;
+}
+
+.w{
+    width: 200px;
+    background-color: royalblue;
+}
+
+.h{
+    height: 200px;
+    background-color: royalblue;
+}
+
+.list-style{
+    list-style: square;
+}
+
+.margin{
+    background-color: blue;
+    height: auto;
+}
+
+.margin h3{
+    margin: 100px;
+    background-color: red;
+}
+
+.padding{
+    background-color: green;
+    padding: 10px;
+}
+
+.padding h3{
+    padding: 100px;
+    background-color: red;
+}
+
+.overflow{
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: scroll;
+}
+
+.display{
+    display: block;
+}
+
+.item_display{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    margin:10px
+}
+
+.relative{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid blue;
+}
+
+.absolute{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid red;
+}
+
+.filter{
+    filter: blur(500px);
+}
