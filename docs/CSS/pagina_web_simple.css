@@ -1,0 +1,146 @@
+:root{
+    --azul:  #124458;
+    --dorado: #c99e1e;
+    --blanco: #fff;
+    --negro: #000;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem  = 10px */
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Globales */
+
+.container{
+    display: flex;
+    display: block;
+}
+
+
+/* header */
+
+.barra{
+    display: flex;
+    align-items: center;
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+.barra_titulo{
+    padding: 2rem;
+    width: 100rem;
+    margin-left: 15rem;
+}
+
+.barra_links{
+    margin-right: 10rem;
+    
+}
+
+.barra_links_a{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--blanco);
+    margin: 1rem;
+}
+
+/* main */
+
+.main{
+    background-color: var(--dorado);
+    margin-top: -2rem;
+    height: 25rem;
+    display: block;
+    color: var(--blanco);
+}
+
+.container_center_main{
+    margin: auto;
+    width: 50%;
+    padding: 7rem;
+}
+
+.main h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main p{
+    font-size: 1.2rem;
+}
+
+
+/* subscribe */
+
+.subscribe{
+    background-color: var(--azul);
+    height: 7rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.subscribe h3{
+    color: var(--blanco);
+    grid-column: 3/4;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.subscribe input, button{
+    height: 2rem;
+    margin-top: 2.2rem;
+}
+
+.subscribe button{
+    width: 8rem;
+    background-color: var(--dorado);
+    color: var(--blanco);
+}
+
+/* languages */
+
+.cursos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 16rem;
+}
+
+.curso_items{
+    width: auto;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -2rem;
+
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--azul);
+    height: 6rem;
+    margin: -1rem;
+}
+
+.footer-content{
+    width: auto;
+    text-align: center;
+    margin-bottom: -1rem;
+    color: var(--blanco);
+    font-size: 1.5rem;
+}
+
+.footer-content p{
+    padding: 2rem;
+}

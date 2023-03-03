@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+    border: 1px solid #000;
+}
+
+.flex-container{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item{
+    margin: 1rem;
+    font-size: 3rem;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
